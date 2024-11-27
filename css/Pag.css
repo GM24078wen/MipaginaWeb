@@ -103,7 +103,7 @@ header nav a:hover {
     justify-content: center; 
     text-align: center;      
     height: 20vh;           
-    color: #ffffff;    }
+    color: #f1ecf1;    }
 
 
 .gallery {
@@ -215,6 +215,7 @@ header nav a:hover {
 .carousel-images:hover {
     animation-play-state: paused;
 }
+
 
 
 footer {
