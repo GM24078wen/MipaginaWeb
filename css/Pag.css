@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1f1f1f, #313131);
-    color: #ffffff;
+    color: #f8eeee;
 }
 
 
@@ -70,6 +70,25 @@ body {
 
 
 
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.image-card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -87,7 +106,7 @@ header h1 {
 header nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #ffffff;
+    color: #ece9e9;
     font-weight: bold;
     transition: color 0.3s;
 }
