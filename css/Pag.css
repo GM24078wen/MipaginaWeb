@@ -3,10 +3,13 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background: linear-gradient(135deg, #1f1f1f, #313131);
-    color: #f8eeee;
+    color: #a67ab4c2;
 }
 
 
+#destinos h2 {
+    text-align: center;
+}
 
 .gallery {
     display: flex;
@@ -106,7 +109,7 @@ header h1 {
 header nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #ece9e9;
+    color: #f0ebeb;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -121,8 +124,30 @@ header nav a:hover {
     align-items: center;    
     justify-content: center; 
     text-align: center;      
-    height: 20vh;           
-    color: #f1ecf1;    }
+    height: 30vh;           
+    color: #f1ecf1;
+
+}
+
+
+#inicio h2 {
+    color: #236859; /* Cambia este color a tu preferencia */
+    font-size: 2.5em; /* Cambia el tamaño del texto */
+    font-weight: bold; /* Ajusta el grosor del texto */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
+}
+
+#inicio p {
+    color: #ffffff; /* Cambia este color a tu preferencia */
+    font-size: 1.2em; /* Cambia el tamaño del texto */
+    line-height: 1.8; /* Ajusta el espaciado entre líneas */
+    text-align: center; /* Centrar el texto */
+    margin: 0 auto; /* Asegura que el texto esté centrado en la página */
+    max-width: 800px; /* Limita el ancho del párrafo para una mejor legibilidad */
+}
+
+
 
 
 .gallery {
