@@ -201,7 +201,7 @@ header nav a:hover {
 /* Animación del carrusel */
 @keyframes slide {
     0%, 100% {
-        transform: translateX(10%);
+        transform: translateX(5%);
     }
     33% {
         transform: translateX(-33%);
