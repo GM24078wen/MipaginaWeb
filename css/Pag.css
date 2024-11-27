@@ -216,7 +216,19 @@ header nav a:hover {
     animation-play-state: paused;
 }
 
+nav {
+    margin-top: 0.5rem; /* Agrega un margen superior de 0.5 rem para separar la navegación del resto del contenido. */
+}
 
+nav a {
+    color: #fff; /* Establece el color del texto de los enlaces como blanco. */
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces. */
+    margin: 0 1rem; /* Agrega un margen horizontal de 1 rem entre los enlaces. */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Añade un subrayado a los enlaces cuando el usuario pasa el cursor sobre ellos. */
+}
 
 footer {
     text-align: center;
