@@ -159,7 +159,7 @@ header nav a:hover {
     line-height: 1.8; /* Ajusta el espaciado entre líneas */
     text-align: center; /* Centrar el texto */
     margin: 0 auto; /* Asegura que el texto esté centrado en la página */
-    max-width: 800px; /* Limita el ancho del párrafo para una mejor legibilidad */
+    max-width: 750px; /* Limita el ancho del párrafo para una mejor legibilidad */
 }
 
 
@@ -199,7 +199,7 @@ header nav a:hover {
 #parrafo {
     opacity: 0;
     animation: fadeIn 1s ease-in-out;
-    animation-delay: 4s; /* Sincronizado con la duración de la animación del título */
+    animation-delay: 3s; /* Sincronizado con la duración de la animación del título */
     animation-fill-mode: forwards; /* Mantiene el estado final visible */
 }
 
