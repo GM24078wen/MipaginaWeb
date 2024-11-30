@@ -117,7 +117,7 @@ header {
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #00ffc6;
 }
 
@@ -147,7 +147,7 @@ header nav a:hover {
 
 #inicio h2 {
     color: #236859; /* Cambia este color a tu preferencia */
-    font-size: 2.5em; /* Cambia el tamaño del texto */
+    font-size: 1.8em; /* Cambia el tamaño del texto */
     font-weight: bold; /* Ajusta el grosor del texto */
     text-align: center; /* Centrar el texto */
     margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
@@ -177,8 +177,8 @@ header nav a:hover {
     overflow: hidden;
     border-right: 2px solid;
     width: 0;
-    animation: typing 5s steps(30, end) infinite, blink 0.5s step-end infinite;
-    animation-delay: 0s, 3s; /* Sincroniza el parpadeo del cursor con el typing */
+    animation: typing 8s steps(30, end) infinite, blink 0.6s step-end infinite;
+    animation-delay: 0.9s, 4s; /* Sincroniza el parpadeo del cursor con el typing */
 }
 
 @keyframes typing {
@@ -199,7 +199,7 @@ header nav a:hover {
 #parrafo {
     opacity: 0;
     animation: fadeIn 1s ease-in-out;
-    animation-delay: 2s; /* Sincronizado con la duración de la animación del título */
+    animation-delay: 4s; /* Sincronizado con la duración de la animación del título */
     animation-fill-mode: forwards; /* Mantiene el estado final visible */
 }
 

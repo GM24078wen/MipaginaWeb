@@ -1,0 +1,40 @@
+/* Media Queries */
+
+/* Para dispositivos móviles (pantallas menores a 768px) */
+@media (max-width: 480px) {
+    #titulo {
+        font-size: 18px; /* Reduce el tamaño de la fuente */
+        animation: typing 4s steps(35, end) infinite, blink 0.5s step-end infinite; /* Más lento en móviles */
+    }
+
+    #parrafo {
+        font-size: 16px; /* Texto del párrafo más pequeño */
+        line-height: 1.4; /* Ajusta el espaciado para mayor legibilidad */
+    }
+}
+
+/* Para tablets (pantallas entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    #titulo {
+        font-size: 24px; /* Tamaño intermedio para tablets */
+        animation: typing 3.5s steps(40, end) infinite, blink 0.5s step-end infinite; /* Ajusta la velocidad */
+    }
+
+    #parrafo {
+        font-size: 18px; /* Tamaño de texto intermedio */
+        line-height: 1.6;
+    }
+}
+
+/* Para PC (pantallas mayores a 1024px) */
+@media (min-width: 1024px) {
+    #titulo {
+        font-size: 32px; /* Más grande en PC */
+        animation: typing 3s steps(50, end) infinite, blink 0.5s step-end infinite; /* Velocidad normal */
+    }
+
+    #parrafo {
+        font-size: 20px; /* Texto más grande para mayor comodidad en pantallas grandes */
+        line-height: 1.8;
+    }
+}
