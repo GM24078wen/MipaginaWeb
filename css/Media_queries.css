@@ -1,0 +1,39 @@
+/* Media Queries para diseño responsivo */
+@media (max-width: 768px) {
+    .typewriter {
+        font-size: 2.5em;
+    }
+
+    #inicio p {
+        font-size: 1.2em;
+    }
+
+    .gallery {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .image-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    nav a {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .typewriter {
+        font-size: 2em;
+    }
+
+    #inicio p {
+        font-size: 1em;
+    }
+
+    nav a {
+        font-size: 0.9em;
+        margin: 0 10px;
+    }
+}
